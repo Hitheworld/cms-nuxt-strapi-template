@@ -1,0 +1,688 @@
+{
+  "server": {
+    "form": {
+      "message": "Your submission was successful."
+    }
+  },
+  "head": {
+    "site_name": "salthub",
+    "title": "Awesome Vape Pen Vaporizer Cartridge Best E-cig Mod - M Bar Switch",
+    "description": "Salthub is an awesome vape pen brand, provide you a variety of fruit flavors vape pod, vaping cartridge changer atomizer, large capacity e-cig rod, explore M Switch cool vaping devices online shop.",
+    "twitter": {
+      "label1": "Written by",
+      "label2": "Time to read",
+      "data1": "salthub",
+      "data2": "1 minute"
+    }
+  },
+  "common": {
+    "dialog": {
+      "title": "AGE VERIFICATION",
+      "content": "<p>To use the Salthub website you must be aged 18 years or over.</p><p>Please verify yourage before entering the site.</p>",
+      "yesBtn": "Yes",
+      "noBtn": "No"
+    },
+    "backTop": {
+      "title": "Contact Us",
+      "formContact": {
+        "title": "Contact Form",
+        "formNamePlaceholder": "Name*",
+        "formPhonePlaceholder": "Phone*",
+        "formEmailPlaceholder": "Email*",
+        "formMessagePlaceholder": "Message*",
+        "formSubmit": "Submit"
+      }
+    }
+  },
+  "layout": {
+    "header": {
+      "menus": [
+        {
+          "name": "HOME",
+          "path": "/",
+          "list": []
+        },
+        {
+          "name": "PRODUCTS",
+          "path": "/products/",
+          "list": []
+        },
+        {
+          "name": "ABOUT US",
+          "path": "/about-us/",
+          "list": []
+        },
+        {
+          "name": "CONTACT US",
+          "path": "/contact-us/",
+          "list": [
+            {
+              "name": "FAQ",
+              "path": "/faq/"
+            }
+          ]
+        },
+        {
+          "name": "AUTHENTICATE",
+          "path": "/authenticate/",
+          "list": []
+        },
+        {
+          "name": "NOTICE",
+          "path": "/important-announcement/",
+          "list": []
+        }
+      ]
+    },
+    "footer": {
+      "contactUs": "ontact us",
+      "eMailName": "E-mail",
+      "eMailValue": "zeroinfinitetrading{'@'}gmail.com",
+      "quickTitle": "Quick Links",
+      "quickLinks": [
+        {
+          "name": "Home",
+          "path": "/",
+          "hot": false
+        },
+        {
+          "name": "Products",
+          "path": "/products",
+          "hot": false
+        },
+        {
+          "name": "About us",
+          "path": "/about-us",
+          "hot": false
+        },
+        {
+          "name": "Contact us",
+          "path": "/contact-us",
+          "hot": false
+        },
+        {
+          "name": "Notice",
+          "path": "/important-announcement",
+          "hot": true
+        }
+      ],
+      "followTitle": "Follow Us",
+      "followList": [
+        {
+          "title": "Facebook",
+          "icon": "IconFacebook",
+          "path": "http://Fb.com/salthub"
+        },
+        {
+          "title": "Twitter",
+          "icon": "IconTwitter",
+          "path": "https://www.twitter.com/"
+        },
+        {
+          "title": "Instagram",
+          "icon": "IconInstagram",
+          "path": "https://www.instagram.com/"
+        },
+        {
+          "title": "Youtube",
+          "icon": "IconYoutube",
+          "path": "https://www.youtube.com/"
+        }
+      ],
+      "copyright": "© 2025 Salthub. All Rights Reserved."
+    }
+  },
+  "page": {
+    "pageHome": {
+      "videoTitle": "Vaping Is The Future",
+      "description": "<p><span style=\"font-size: 20.8px;\">With the latest technology to create electronic vaporizer products that meet market demands</span></p>",
+      "tags": [
+        {
+          "count": "99%",
+          "title": "Happy Customers"
+        },
+        {
+          "count": "30",
+          "title": "Popular Flavors"
+        },
+        {
+          "count": "20",
+          "title": "Best-selling Products"
+        }
+      ],
+      "whoWeAreCard": {
+        "title": "Who We Are",
+        "subtitle": "WE ARE THE BEST E-CIGARETTE BRAND",
+        "description": "As heavy users of electronic vaporizers, we have assembled a leading research and development team in the industry out of our love for the product.",
+        "followUs": "Follow us:",
+        "aboutUs": "ABOUT US"
+      },
+      "productCard": {
+        "title": "PRODUCTS",
+        "subtitle": "Explore Our Featured Vaping Devices",
+
+        "productList": [
+          {
+            "tag": "new",
+            "picture": "/images/product/zero_pro.webp",
+            "name": "ZERO PRO",
+            "description": "• 3 Mode for Every Vaping Mood<br>• 5000 Puffs<br>• Affordable,\n                      Compact, Elegant",
+            "hot": true
+          },
+          {
+            "tag": "",
+            "picture": "/images/product/zero_nano.webp",
+            "name": "ZERO NANO",
+            "description": "• Portable<br>• Battery Capacity: 500mAh<br>• Rechargeable</p>"
+          },
+          {
+            "tag": "",
+            "picture": "/images/product/m_bar_15k.webp",
+            "name": "M BAR 15K",
+            "description": "• 15000 puffs<br>• Battery Capacity: 600mAh<br>• Affordable, Compact,\n          Elegant"
+          },
+          {
+            "tag": "",
+            "picture": "/images/product/m_bar_9k.webp",
+            "name": "M BAR 9K",
+            "description": "• 9000 puffs<br>• Battery Capacity: 600mAh<br>• Adjustable Airflow"
+          },
+          {
+            "tag": "",
+            "picture": "/images/product/m_zero.webp",
+            "name": "M ZERO",
+            "description": "• Portable, Affordable<br>• 10+ Fresh Flavors<br>• Compatible with ZERO\n          Cartridge"
+          },
+          {
+            "tag": "",
+            "picture": "/images/product/zero_cartridge.webp",
+            "name": "ZERO CARTRIDGE",
+            "description": "• Compatible, Changeable<br>• E-liquid Capacity: 2.2mL<br>• 10+ Flavors"
+          }
+        ]
+      },
+      "benefitsCard": {
+        "title1": "The Benefits",
+        "title2": "M BAR 9K",
+        "subtitle": "M SWITCH",
+        "leftList": [
+          {
+            "icon": "IconBattery",
+            "title": "Battery",
+            "subtitle": "600mAh"
+          },
+          {
+            "icon": "IconNicotineSalt",
+            "title": "Nicotine Salt",
+            "subtitle": "30mg"
+          },
+          {
+            "icon": "IconPuff",
+            "title": "Puff",
+            "subtitle": "15000puff"
+          }
+        ],
+        "rightList": [
+          {
+            "icon": "IconResistance",
+            "title": "Resistance",
+            "subtitle": "1.0 Ω"
+          },
+          {
+            "icon": "IconExpirationDate",
+            "title": "Expiration Date",
+            "subtitle": "12 Months"
+          },
+          {
+            "icon": "IconRechargeable",
+            "title": "Rechargeable",
+            "subtitle": "Type-C"
+          }
+        ]
+      },
+      "flavorsCard": {
+        "title": "FLAVORS",
+        "subtitle": "SWITCH FLAVORS",
+        "rightBtn": "explore more",
+        "swiperSlideList": [
+          {
+            "picture": "/images/product/Marbo_apple_aloe.webp",
+            "name": "Marbo apple aloe disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_blueice.webp",
+            "name": "Marbo blueice disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_cola.webp",
+            "name": "Marbo cola disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_doublemint.webp",
+            "name": "Marbo doublemint disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_grape_.webp",
+            "name": "Marbo grape disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_grape_aloe.webp",
+            "name": "Marbo grape aloe disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_grape_lychee.webp",
+            "name": "Marbo grape lychee disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_mango_passion.webp",
+            "name": "Marbo mango passion disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_mixberry.webp",
+            "name": "Marbo mixberry disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_peach_strawberry.webp",
+            "name": "Marbo peach strawberry disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_pink_berry.webp",
+            "name": "Marbo pink berry disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_strawberry.webp",
+            "name": "Marbo strawberry disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_strawberry_watermelon.webp",
+            "name": "Marbo strawberry watermelon disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_watermelon.webp",
+            "name": "Marbo watermelon disposable vape pod"
+          },
+          {
+            "picture": "/images/product/Marbo_watermelon_bubblegum.webp",
+            "name": "Marbo watermelon bubblegum disposable vape pod"
+          }
+        ]
+      },
+      "whyChooseUsCard": {
+        "title": "Categories",
+        "subtitle": "why choose our products",
+        "description": "<p>We can provide the best service and the best quality</p>\n<p>experience.</p>",
+        "progressList": [
+          {
+            "title": "BATTERY LIFE",
+            "progress": 90
+          },
+          {
+            "title": "BEST FLAVORS",
+            "progress": 95
+          },
+          {
+            "title": "SAFETY FEATURES",
+            "progress": 92
+          },
+          {
+            "title": "AIR FLOW CONTROL",
+            "progress": 93
+          }
+        ]
+      }
+    },
+    "pageProducts": {
+      "productCard": {
+        "title": "Categories",
+        "subtitle": "Product Selection",
+        "productList": [
+          {
+            "title": "Disposable Vape",
+            "subtitle": "A variety of disposable flavors are available.",
+            "picture": "/images/product/Marbo_15K_disposable_vape_bar.webp",
+            "path": "",
+            "direction": "left"
+          },
+          {
+            "title": "Disposable Vape",
+            "subtitle": "A variety of disposable flavors are available.",
+            "picture": "/images/product/Marbo_disposable_vape_bar_9k.webp",
+            "path": "",
+            "direction": "right"
+          },
+          {
+            "title": "E-cig Rod",
+            "subtitle": "Cool looking cartridge changer atomizer.",
+            "picture": "/images/product/Marbo_disposable_vape_pen.webp",
+            "path": "",
+            "direction": "left"
+          },
+          {
+            "title": "Pod Cartridge",
+            "subtitle": "Large capacity variety of flavors for you to choose from.",
+            "picture": "/images/product/vape_cartridge_switcher.webp",
+            "path": "",
+            "direction": "right"
+          }
+        ]
+      },
+      "bestSellersCard": {
+        "title": "BEST SELLERS",
+        "subtitle": "STARTER KIT BUNDLES",
+        "buyBtn": "BUY NOW",
+        "hotProductList": [
+          {
+            "title": "VAPE BAR",
+            "picture": "/images/product/marbo_60_vaporizer_pod.webp"
+          },
+          {
+            "title": "POD",
+            "picture": "/images/product/烟弹2-2.png"
+          },
+          {
+            "title": "DISPOSABLE",
+            "picture": "/images/product/M3.png"
+          }
+        ]
+      },
+      "productSwiperCard": {
+        "swiperList": [
+          {
+            "picture": "/images/product/apple-aloe-scaled.jpg",
+            "name": "apple aloe"
+          },
+          {
+            "picture": "/images/product/YAKULT-scaled.jpg",
+            "name": "YAKULT"
+          },
+          {
+            "picture": "/images/product/WATERMELON-scaled.jpg",
+            "name": "WATERMELON"
+          },
+          {
+            "picture": "/images/product/PINEAPPLE-scaled.jpg",
+            "name": "PINEAPPLE"
+          },
+          {
+            "picture": "/images/product/PEACH-scaled.jpg",
+            "name": "PEACH"
+          },
+          {
+            "picture": "/images/product/PEACH-STRAWBERRY-scaled.jpg",
+            "name": "PEACH STRAWBERRY"
+          },
+          {
+            "picture": "/images/product/oolong-tea-scaled.jpg",
+            "name": "oolong tea"
+          },
+          {
+            "picture": "/images/product/MIXBERRY-scaled.jpg",
+            "name": "MIXBERRY"
+          },
+          {
+            "picture": "/images/product/MINT-scaled.jpg",
+            "name": "MINT"
+          },
+          {
+            "picture": "/images/product/MANGO-scaled.jpg",
+            "name": "MANGO"
+          },
+          {
+            "picture": "/images/product/LYCHEE-scaled.jpg",
+            "name": "LYCHEE"
+          },
+          {
+            "picture": "/images/product/LEMONADE-scaled.jpg",
+            "name": "LEMONADE"
+          },
+          {
+            "picture": "/images/product/ICE-SPARKLING-scaled.jpg",
+            "name": "ICE SPARKLING"
+          },
+          {
+            "picture": "/images/product/Honey-Yuzu-scaled.jpg",
+            "name": "Honey Yuzu"
+          },
+          {
+            "picture": "/images/product/GRAPEFRUIT-scaled.jpg",
+            "name": "GRAPEFRUIT"
+          },
+          {
+            "picture": "/images/product/GRAPE-scaled.jpg",
+            "name": "GRAPE"
+          },
+          {
+            "picture": "/images/product/GRAPE-ALOE-scaled.jpg",
+            "name": "GRAPE ALOE"
+          },
+          {
+            "picture": "/images/product/fruit-tea-scaled.jpg",
+            "name": "fruit tea"
+          },
+          {
+            "picture": "/images/product/Dream-blueberry-scaled.jpg",
+            "name": "Dream blueberry"
+          },
+          {
+            "picture": "/images/product/COLA-scaled.jpg",
+            "name": "COLA"
+          },
+          {
+            "picture": "/images/product/CIGAR-scaled.jpg",
+            "name": "CIGAR"
+          }
+        ]
+      }
+    },
+    "pageAboutUs": {
+      "aboutUsCard": {
+        "title1": "About Us",
+        "subtitle1": "In the vape industry since 2020",
+        "title2": "Best vape store",
+        "subtitle2": "VAPE MADE & ESTABLISHED",
+        "description2": "Salthub offers global consumers a disposable vape solution with a better taste, greater flavor consistency, and more puffs, as it solves the problems of cotton coil disposable vapes, such as e-liquid leakage, flavor degradation, and easy to dry burn."
+      },
+      "whyChooseUsCard": {
+        "title": "why choose us",
+        "subtitle": "why choose our products",
+        "description": "We can provide the best service and the best quality experience.",
+        "tags": [
+          {
+            "title": "EASY RETURN",
+            "picture": "/images/about-us/like-shapes.png"
+          },
+          {
+            "title": "BEST WARRANTY",
+            "picture": "/images/about-us/medal-star.png"
+          },
+          {
+            "title": "USER SERVICE",
+            "picture": "/images/about-us/messages-2.png"
+          }
+        ]
+      },
+      "viewColumnsBannerCard": {
+        "tags": [
+          {
+            "title": "99%",
+            "description": "Happy Customers"
+          },
+          {
+            "title": "30",
+            "description": "Popular Flavors"
+          },
+          {
+            "title": "20",
+            "description": "Best-selling Products"
+          }
+        ]
+      },
+      "ourBestServiceCard": {
+        "title": "Our Best Service",
+        "subtitle": "PROVIDE THE BEST VAPE SERVICE",
+        "description": "Salthub devotes to developing the most innovative technology of muti-analysis to achieve power control, temperature contrl, mode switching, power mangement and other smart functions.",
+        "moreBtn": "learn more",
+        "alert": "We can provide the best service and the best quality experience."
+      },
+      "ourNewsletterCard": {
+        "title": "Our Newsletter",
+        "subtitle": "GET THE UPDATED NEWS",
+        "formInputPlaceholder": "Enter your email",
+        "formBtn": "Subscribe",
+        "tags": ["Offers", "Discount", "Useful Insights"]
+      }
+    },
+    "pageContactUs": {
+      "formCard": {
+        "title": "Get In Touch",
+        "subtitle": "WE'RE HERE TO HELP YOU",
+        "description": "Salthub devotes to developing the most innovative technology of muti-analysis to achieve power control, temperature contrl, mode switching, power mangement and other smart functions.",
+        "formNamePlaceholder": "Full Name",
+        "formEmailPlaceholder": "Email Address",
+        "formPhonePlaceholder": "Phone Number",
+        "formMessagePlaceholder": "Your message",
+        "formBtn": "Send Message"
+      },
+      "faqsCard": {
+        "title": "FAQs",
+        "subtitle": "Frequently asked questions",
+        "faqList": [
+          {
+            "head": "Why won't my vape charge?",
+            "body": "<p>– We recommend that you drain the battery first time using the device then charge it to full power.</p>\n <p>– Wiggle the device to see if it makes a clear connection with the USB Charging Dock.</p>\n ",
+            "open": true
+          },
+          {
+            "head": "Why should I avoid upsidedown my vape?",
+            "body": "<p>We recommend you to not keep your vape upside down when vaping or not in use.<br>This is to prevent the condensation from entering into mouth and create bad experience.</p>",
+            "open": false
+          },
+          {
+            "head": "Can I bring vapes on a plane?",
+            "body": "<p>Where you can bring vapes/e-cigarettes on a plane depends on which country you are taking the plane. In the U.S., vapes are allowed to be carried with us to airport and plane. Just carefully with the battery and e-liquid volume when carrying vapes with you.</p>",
+            "open": false
+          },
+          {
+            "head": "About E-juice: What're the ingredients?",
+            "body": "<p>Vegetable glycerin (aka VG), propylene glycol(aka PG), nicotine salt, natural and artificial flavorings.</p>",
+            "open": false
+          },
+          {
+            "head": "Charging your M Bar vape?",
+            "body": "<p>For different vaping products, there will be different indicators showing fully charged status.</p>",
+            "open": false
+          }
+        ]
+      }
+    },
+    "pageFaq": {
+      "faqCard": {
+        "title": "FAQs",
+        "subtitle": "Frequently asked questions",
+        "faqList": [
+          {
+            "title": "Use & Maintenance",
+            "itemList": [
+              {
+                "head": "Why won't my vape charge?",
+                "body": "<p>– We recommend that you drain the battery first time using the device then charge it to full power.</p>\n<p>– Wiggle the device to see if it makes a clear connection with the USB Charging Dock.</p>",
+                "open": true
+              },
+              {
+                "head": "Why should I avoid upsidedown my vape?",
+                "body": "<p>We recommend you to not keep your vape upside down when vaping or not in use.<br>This is to prevent the condensation from entering into mouth and create bad experience.</p>",
+                "open": false
+              },
+              {
+                "head": "Can I bring vapes on a plane?",
+                "body": "<p>Where you can bring vapes/e-cigarettes on a plane depends on which country you are taking the plane. In the U.S., vapes are allowed to be carried with us to airport and plane. Just carefully with the battery and e-liquid volume when carrying vapes with you.</p>",
+                "open": false
+              },
+              {
+                "head": "About E-juice: What're the ingredients?",
+                "body": "<p>Vegetable glycerin (aka VG), propylene glycol(aka PG), nicotine salt, natural and artificial flavorings.</p>",
+                "open": false
+              },
+              {
+                "head": "Charging your M Bar vape?",
+                "body": "<p>For different vaping products, there will be different indicators showing fully charged status.</p>",
+                "open": false
+              }
+            ]
+          },
+          {
+            "title": "Product Info",
+            "itemList": [
+              {
+                "head": "Charging your M Bar vape?",
+                "body": "<p>For different M Bar products, there will be&nbsp;different indicators showing fully charged status.</p>",
+                "open": false
+              },
+              {
+                "head": "About E-juice: What're the ingredients?",
+                "body": "<p>Vegetable glycerin (aka VG), propylene glycol(aka PG), nicotine salt, natural and artificial flavorings.</p>",
+                "open": false
+              }
+            ]
+          },
+          {
+            "title": "Vaping Guide",
+            "itemList": [
+              {
+                "head": "Who can't use vape?",
+                "body": "<p>Vape is not suitable for:</p><p>– Persons with an overactive thyroid gland or experiencing phaeochromocytoma (a tumor of the adrenal gland that can affect blood pressure)</p><p>Please do not use if you are under 18 years old/during pregnancy/breastfeeding/allergic to alcohols/heart disease/ stomachache/duode nalulcers/liver or kidney problems/long-term throat disease/difficult breathing due to bronchitis/emphysema/asthma.</p><p>Stop using immediately if experience the following results. Please consult a healthcare professional if necessary:</p><p>– Feeling faint / Nausea / Dizziness / Headache / Coughing / Irritation of the mouth or throat / Stomach discomfort / Hiccups / Nasal congestion / Vomiting / Chest palpitation / Pain or an irregular heart rate.</p>",
+                "open": false
+              },
+              {
+                "head": "Can I bring vapes on a plane?",
+                "body": "<p>Where you can bring vapes/e-cigarettes on a plane depends on which country you are taking the plane. In the U.S., vapes are allowed to be carried with us to airport and plane. Just carefully with the battery and e-liquid volume when carrying vapes with you.</p><p>For other countries’ regulations on carying vapes on a plane, please go to their official sites or the sites of the specific airline you are taking.</p>",
+                "open": false
+              },
+              {
+                "head": "What are the types of vapes?",
+                "body": "<p>There are so many types of vapes out in the market.</p><p>Disposable vapes are the simplest vapes in construct and operation. They are easy to use, and can be threw away after use.</p><p>Vape pens/pod mods require vapers to do some learning, such as filling the pod, pressing buttons, or changing the prefilled vape pods. Vape pens and pod mods are great choices for vape beginners or vapers who want everything to be more convenient compared to mods.</p><p>Mods are the most complicated vapes, which produce larger smoke and denser flavor with the sub-ohm coils. Some of them can be DIYed by wiring your own coils, using your own cottons, and setting your preferred temperature. Mods allows wider free space for vapers to gain bigger clouds, warmer flavors, and more.</p>",
+                "open": false
+              }
+            ]
+          }
+        ]
+      },
+      "questionsCard": {
+        "title": "Still have a questions?",
+        "speakBtn": "speak with team",
+        "contactUsBtn": "Contact Us"
+      },
+      "tagsCard": [
+        {
+          "count": "99%",
+          "title": "Happy Customers"
+        },
+        {
+          "count": "30",
+          "title": "Popular Flavors"
+        },
+        {
+          "count": "20",
+          "title": "Best-selling Products"
+        }
+      ],
+      "experienceCard": {
+        "title": "NEEDS EXPERIENCE OUR STORE?",
+        "btn": "CONTACT US"
+      }
+    },
+    "pageNotice": {
+      "title": "Important announce",
+      "subtitle": "Dear consumers",
+      "description1": "<p>Recently, there have been some cases of counterfeit products of our company in the market, which has drawn our high attention. To protect your rights, interests, and health, we are issuing this announcement to solemnly declare that all products manufactured by our company are produced in strict accordance with relevant safety standards and have undergone multiple strict quality inspection procedures to ensure that we provide you with safe, reliable, and high – quality products.</p>",
+      "description2": "<p>We deeply understand the significance of product quality and safety to consumers. Each product embodies our persistent pursuit of quality and our sense of responsibility towards consumers.</p>",
+      "description3": "<p>However, counterfeit products can neither guarantee quality nor safety and may also have serious quality problems and potential safety hazards. Using counterfeit products can cause harm to your physical health. These counterfeit products often cut corners in terms of raw materials, production processes, etc. They may contain harmful substances or do not conform to ergonomic design and may cause various adverse reactions and health problems during use.</p>",
+      "description4": "<p>For the health and safety of you and your family, when purchasing products, please be sure to carefully identify them and choose regular sales channels and authorized dealers. You can identify the authenticity by checking anti – counterfeiting marks, official certification marks on the product packaging, etc. At the same time, we also recommend that you remain vigilant. Click to<a href=\"/authenticate/\"><span style=\"font-size: 1.5em;\">identify the authenticity</span></a>of your product.</p>",
+      "description5": "<p>We will continue to devote ourselves to providing safe and reliable products for everyone, and constantly improve product quality and service level. It will also strengthen the market supervision, and resolutely safeguard the legitimate rights and interests of consumers and the good reputation of the company.</p>",
+      "description6": "<p>We will also strengthen market supervision and anti – counterfeiting efforts to firmly safeguard the legitimate rights and interests of consumers and the good reputation of the company. At the same time, we also thank the vast number of consumers for your long – term support and trust in us. We hope that you will continue to choose our company’s products and jointly create a healthy, safe, and orderly consumption environment.</p>",
+      "description7": "<p>Once again, we remind everyone to carefully identify products when purchasing and never buy counterfeit products. If you have any questions or need further information about the products, please feel free to contact our customer service team (<a href=\"mailto:info{'@'}salthub.com\">info{'@'}salthub.com</a>). We will serve you wholeheartedly.</p>",
+      "subscriber": "Hereby announced!",
+      "date": "November 1, 2024"
+    }
+  }
+}

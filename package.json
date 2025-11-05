@@ -1,0 +1,32 @@
+{
+  "name": "travel-website-nuxt-pc",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.10.0",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^2.1.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/scripts": "^0.13.0",
+    "@nuxt/ui": "^4.1.0",
+    "@nuxtjs/i18n": "^10.2.0",
+    "@nuxtjs/strapi": "2.1.1",
+    "@unhead/vue": "^2.0.19",
+    "eslint": "^9.39.1",
+    "nuxt": "4.1.3",
+    "qs": "6.14.0",
+    "sass": "^1.93.3",
+    "sass-loader": "^16.0.6",
+    "tailwindcss": "^4.1.16",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  },
+  "packageManager": "pnpm@10.20.0+sha512.cf9998222162dd85864d0a8102e7892e7ba4ceadebbf5a31f9c2fce48dfce317a9c53b9f6464d1ef9042cba2e02ae02a9f7c143a2b438cd93c91840f0192b9dd"
+}
