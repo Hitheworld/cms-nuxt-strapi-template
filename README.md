@@ -1,4 +1,4 @@
-# 途美官网门户网站
+# CMS门户网站
 
 ## 开发资料获取
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
