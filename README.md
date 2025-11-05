@@ -8,13 +8,13 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 
 ## 开发资源
 ### UI库
-[nuxtUI](https://ui.nuxt.com/)
-[ark-u](https://ark-ui.com/)
-[tailwindcss](https://tailwindcss.com/)
-[strapi中文教程](https://strapi.nodejs.cn/)
-[strapi与nuxt整合文档](https://strapi.nuxtjs.org/)
-[strapi service](https://docs.strapi.io/cms/api/document-service)
-[strapi service](https://strapi.nuxtjs.org/usage#usestrapi)
+-   [nuxtUI](https://ui.nuxt.com/)
+-   [ark-u](https://ark-ui.com/)
+-   [tailwindcss](https://tailwindcss.com/)
+-   [strapi中文教程](https://strapi.nodejs.cn/)
+-   [strapi与nuxt整合文档](https://strapi.nuxtjs.org/)
+-   [strapi service](https://docs.strapi.io/cms/api/document-service)
+-   [strapi service](https://strapi.nuxtjs.org/usage#usestrapi)
 
 
 ### 模板
