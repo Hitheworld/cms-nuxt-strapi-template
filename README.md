@@ -15,6 +15,7 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 -   [strapi与nuxt整合文档](https://strapi.nuxtjs.org/)
 -   [strapi service](https://docs.strapi.io/cms/api/document-service)
 -   [strapi service](https://strapi.nuxtjs.org/usage#usestrapi)
+-   [单一集合类型的API调用Strapi v4时未显示的图像URL](https://cloud.tencent.com/developer/ask/sof/106559538)
 
 
 ### 模板

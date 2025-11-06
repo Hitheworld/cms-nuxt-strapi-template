@@ -7,7 +7,7 @@ const { find } = useStrapi();
 
 const { data: globalData, pending, refresh, error } = await useAsyncData("global", async () => {
       const response = await find("global", {
-        populate: ["logo"],
+        // populate: ["logo"],
         // fields: ["url", "siteDescription", "siteName"],
         // populate: {
         //   seo: {

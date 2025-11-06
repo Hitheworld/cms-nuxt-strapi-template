@@ -12,35 +12,49 @@ const route = useRoute();
 const { find, findOne } = useStrapi<Course>();
 
 const { data: homeData, pending, refresh, error } = await useAsyncData("home", () => find<Restaurant>("home", {
-  // populate: ["image"],
+  populate: ["seo", "slideshow.image", "swiperLogo"],
+  // fields: ["slideshow.image.url"],
+  // populate: {
+  //   seo: {
+  //     populate: "shareImage",
+  //     fields: ["url"],
+  //   },
+  //   slideshow: {
+  //     populate: "image",
+  //     fields: ["url"],
+  //   },
+  //   // swiperLogo: [],
+  // },
 }));
-console.log("homeInfoData的数据是:", homeData.value)
-
-
-
-const testData = [
-  {
-    images: {
-      url: "https://www.shuzhitumei.com/_nuxt/swiper1.BoAFuRId.jpg"
-    },
-    title: "途美商旅",
-    desc: "数智化全场景企业差旅及费控服务平台",
-    showBtn: true,
-    tips: "为100+同业伙伴提供差旅管控模块和出行资源开发对接服务，超2000家各行业头部和高成长型客户差旅及费控服务经验，致力于为客户提供一站式差旅服务，助力企业打造合规节省、规避价格黑箱、智能高效的差旅出行平台。",
-  },
-]
 </script>
 
 <template>
 
-  <div>
-    homeData: {{ homeData }}
-  </div>
-
 
   <HomeSwiper
-    :items="testData"
+    :items="homeData?.data?.slideshow"
   />
+
+  <UCarousel
+      v-slot="{ item }"
+      orientation="vertical"
+      loop
+      :autoplay="{ delay: 2000 }"
+      :items="homeData?.data?.swiperLogo"
+      :ui="{
+        item: `basis-1/6`,
+         container: 'h-[70px]'
+      }"
+  >
+    <template v-for="(subItme, index) in item" :key="index">
+      <NuxtImg
+          class="swiper-img"
+          :src="`${config.STRAPI_URL}${item?.url}`"
+          :alt="item?.caption"
+          style="height: 80px"
+      />
+    </template>
+  </UCarousel>
   <div>首页</div>
   <div>
   </div>
