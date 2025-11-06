@@ -2,24 +2,24 @@
 export interface SwiperItemProps {
   url: string;
   title: string;
-  desc: string[];
-  tips: string[];
-  btns: string[];
+  desc: string;
+  tips: string;
+  btn?: boolean;
   textTop?: string;
   textAlign?: string;
   path?: string;
   btnText?: string;
   btnMt?: string;
+  link?: string;
+  icon?: string;
 }
 
 const props = withDefaults(defineProps<SwiperItemProps>(),  {
-  contentCenter: false,
-  textAlign: "",
+  url: "",
   title: "",
-  textTop: "",
-  desc: () => [],
-  tips: () => [],
-  btns: () => [],
+  desc: "",
+  tips: "",
+  btn: false,
 });
 
 
@@ -42,21 +42,9 @@ const toRegister = () => {
   }
   // routerPush("/register");
 };
-
 </script>
 
 <template>
-
-  <div>页面====</div>
-  <div>url: {{ props.url }}</div>
-  <div>
-    desc: {{ props.desc }}
-  </div>
-
-
-
-
-
   <div class="swiper-container flex-center" :class="{ 'display-block': !props.contentCenter }">
     <NuxtImg class="swiper-img" :src="props.url" alt="" style="height: 100%" />
     <div class="content" :style="{ 'text-align': props.textAlign || 'left' }">
@@ -68,25 +56,22 @@ const toRegister = () => {
 
       <template v-if="props.desc">
         <h1 v-scroll-reveal="'animate__animated animate__fadeInUp'" data-delay="0.4s" class="desc mt-5">
-          <div v-for="(item, index) in props.desc" :key="index">
-            {{ item }}
-          </div>
+          {{ props.desc }}
         </h1>
       </template>
       <template v-if="props.tips">
         <div class="tips mt-18" v-scroll-reveal="'animate__animated animate__fadeInUp'" data-delay="0.6s">
-          <p v-for="(item, index) in props.tips" :key="index">
-            {{ item }}
+          <p>
+            {{ props.tips }}
           </p>
         </div>
       </template>
 
-      <template v-if="props.btns.length">
+      <template v-if="props.btn">
         <div class="flex btns mt-30">
-          <template v-for="value in props.btns" :key="value">
-            <div @click="handleLink(value.link)"><img :class="{ 'mr-10': index === 0 }" :src="value.icon" alt="" style="width: 125px" />
-            </div>
-          </template>
+          <div @click="handleLink(props.link)">
+            <img :class="{ 'mr-10': index === 0 }" :src="props.icon" alt="" style="width: 125px" />
+          </div>
         </div>
       </template>
 

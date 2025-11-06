@@ -16,7 +16,7 @@ const props = withDefaults(defineProps<SwiperProps>(),  {
   <div class="flex-1 w-full">
     <UCarousel v-slot="{ item }" :items="props.items"  :ui="{ item: `basis-1/1` }">
       <SwiperItem
-          :url="item.images?.[0]?.url"
+          :url="item.images?.url"
           :title="item?.title"
           :desc="item?.desc"
           :tips="item?.tips"
